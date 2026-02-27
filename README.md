@@ -13,7 +13,7 @@ This repository contains custom skills for Claude Code that can be installed via
 ### Via Claude Code Marketplace
 
 1. Open Claude Code
-2. Run `/skills add https://github.com/YOUR_USERNAME/skills`
+2. Run `/skills add https://github.com/kyoko-df/skills`
 3. The skills will be automatically discovered and installed
 
 ### Manual Installation
@@ -21,7 +21,7 @@ This repository contains custom skills for Claude Code that can be installed via
 ```bash
 # Clone to your Claude Code skills directory
 cd ~/.claude/skills
-git clone https://github.com/YOUR_USERNAME/skills personal-skills
+git clone https://github.com/kyoko-df/skills personal-skills
 ```
 
 ## Available Skills
