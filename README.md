@@ -26,6 +26,13 @@ git clone https://github.com/kyoko-df/skills personal-skills
 
 ## Available Skills
 
+### Humanizer (去 AI 味)
+- **Description**: 去除文档中的 AI 生成痕迹,支持中英文文档。识别并修复 24+ 种 AI 写作模式,包括成语堆砌、空洞排比、宣传语言、模糊归因等
+- **Usage**: 当需要去除文档的 AI 味时自动触发,或明确请求"帮我去除这段文字的 AI 味"
+- **Location**: `humanizer/`
+- **Languages**: 中文 + English
+- **Version**: 1.0.0
+
 ### Example Skill
 - **Description**: A template skill to demonstrate the structure
 - **Usage**: `/example` or when user mentions "example task"
