@@ -63,10 +63,12 @@ MIT License - See LICENSE file for details
 
 ## Documentation
 
-- [Quick Start Guide](QUICKSTART.md) - Get started in minutes
-- [Contributing Guide](CONTRIBUTING.md) - How to add new skills
-- [Example Skill](example-skill/) - Reference implementation
-- [Best Practices](example-skill/resources/best-practices.md) - Tips for writing effective skills
+- 🚀 [Quick Start Guide](QUICKSTART.md) - Get started in minutes
+- ⚙️ [Setup Instructions](SETUP.md) - Publish to GitHub
+- 📋 [Cheat Sheet](CHEATSHEET.md) - Quick reference for common tasks
+- 🤝 [Contributing Guide](CONTRIBUTING.md) - How to add new skills
+- 📝 [Example Skill](example-skill/) - Reference implementation
+- 💡 [Best Practices](example-skill/resources/best-practices.md) - Tips for writing effective skills
 
 ## Resources
 
