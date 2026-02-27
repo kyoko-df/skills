@@ -26,7 +26,7 @@ Edit `LICENSE` file and replace `[Your Name]` with your name.
 
 ```bash
 # Copy the example skill as a template
-cp -r example-skill my-first-skill
+cp -r skills/example-skill my-first-skill
 
 # Edit the SKILL.md file
 # Update metadata, triggers, and instructions
@@ -87,7 +87,7 @@ mkdir my-new-skill
 cd my-new-skill
 
 # Copy template
-cp ../example-skill/resources/template.md SKILL.md
+cp ../skills/example-skill/resources/template.md SKILL.md
 
 # Edit SKILL.md with your content
 # - Update metadata (name, description, tags)
@@ -208,7 +208,7 @@ ls my-skill/SKILL.md
 ## Next Steps
 
 1. **Read** `CONTRIBUTING.md` for detailed guidelines
-2. **Review** `example-skill/resources/best-practices.md`
+2. **Review** `skills/example-skill/resources/best-practices.md`
 3. **Create** your first custom skill
 4. **Test** locally with Claude Code
 5. **Share** with the community

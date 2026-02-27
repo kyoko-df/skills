@@ -26,7 +26,7 @@ git push -u origin main
 mkdir my-skill-name && cd my-skill-name
 
 # Copy template
-cp ../example-skill/resources/template.md SKILL.md
+cp ../skills/example-skill/resources/template.md SKILL.md
 
 # Edit SKILL.md (update all sections)
 # - Metadata: name, version, description, tags
@@ -172,7 +172,7 @@ Types:
 
 Examples:
 feat: add code-reviewer skill
-fix: correct trigger conditions in example-skill
+fix: correct trigger conditions in skills/example-skill
 docs: update installation instructions
 chore: update dependencies
 ```
@@ -238,8 +238,8 @@ skill-name/
 - 🚀 [QUICKSTART](QUICKSTART.md) - Getting started guide
 - ⚙️ [SETUP](SETUP.md) - GitHub setup instructions
 - 🤝 [CONTRIBUTING](CONTRIBUTING.md) - Contribution guidelines
-- 📝 [Example Skill](example-skill/SKILL.md) - Reference implementation
-- 💡 [Best Practices](example-skill/resources/best-practices.md) - Tips and patterns
+- 📝 [Example Skill](skills/example-skill/SKILL.md) - Reference implementation
+- 💡 [Best Practices](skills/example-skill/resources/best-practices.md) - Tips and patterns
 
 ## Keyboard Shortcuts (Claude Code)
 

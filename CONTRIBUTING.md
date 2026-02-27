@@ -21,10 +21,10 @@ cd my-new-skill
 
 ### 2. Create SKILL.md
 
-Use the template from `example-skill/resources/template.md`:
+Use the template from `skills/example-skill/resources/template.md`:
 
 ```bash
-cp example-skill/resources/template.md my-new-skill/SKILL.md
+cp skills/example-skill/resources/template.md my-new-skill/SKILL.md
 ```
 
 ### 3. Fill in Skill Details
@@ -178,8 +178,8 @@ Update version in:
 
 ## Getting Help
 
-- Check `example-skill/` for reference implementation
-- Read `example-skill/resources/best-practices.md`
+- Check `skills/example-skill/` for reference implementation
+- Read `skills/example-skill/resources/best-practices.md`
 - Open an issue for questions
 - Review existing skills for patterns
 

@@ -73,7 +73,7 @@ https://github.com/YOUR_USERNAME/skills
 
 Check that:
 - [ ] README.md displays correctly
-- [ ] example-skill/ directory is visible
+- [ ] skills/example-skill/ directory is visible
 - [ ] All documentation files are present
 - [ ] GitHub Actions workflow is enabled (if public)
 
@@ -136,7 +136,7 @@ mkdir my-custom-skill
 cd my-custom-skill
 
 # Copy template
-cp ../example-skill/resources/template.md SKILL.md
+cp ../skills/example-skill/resources/template.md SKILL.md
 
 # Edit SKILL.md
 # - Update metadata (name, version, description)
@@ -343,7 +343,7 @@ Run periodically:
 
 - [Quick Start Guide](QUICKSTART.md)
 - [Contributing Guide](CONTRIBUTING.md)
-- [Example Skill](example-skill/)
+- [Example Skill](skills/example-skill/)
 - [Claude Code Documentation](https://docs.anthropic.com/claude/docs/claude-code)
 
 ## Getting Help

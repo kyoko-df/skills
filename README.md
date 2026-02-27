@@ -29,14 +29,14 @@ git clone https://github.com/kyoko-df/skills personal-skills
 ### Humanizer (去 AI 味)
 - **Description**: 去除文档中的 AI 生成痕迹,支持中英文文档。识别并修复 24+ 种 AI 写作模式,包括成语堆砌、空洞排比、宣传语言、模糊归因等
 - **Usage**: 当需要去除文档的 AI 味时自动触发,或明确请求"帮我去除这段文字的 AI 味"
-- **Location**: `humanizer/`
+- **Location**: `skills/humanizer/`
 - **Languages**: 中文 + English
 - **Version**: 1.0.0
 
 ### Example Skill
 - **Description**: A template skill to demonstrate the structure
 - **Usage**: `/example` or when user mentions "example task"
-- **Location**: `example-skill/`
+- **Location**: `skills/example-skill/`
 
 ## Creating New Skills
 
@@ -45,11 +45,30 @@ Each skill should:
 2. Contain a `SKILL.md` file with metadata and instructions
 3. Follow the [Claude Code skill format](https://docs.anthropic.com/claude/docs/skills)
 
-### Skill Structure
+### Repository Structure
 
 ```
-skill-name/
+skills/
+├── skills/
+│   ├── humanizer/           # Remove AI writing patterns
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   └── resources/
+│   └── example-skill/       # Template skill
+│       ├── SKILL.md
+│       └── resources/
+├── README.md
+├── QUICKSTART.md
+├── SETUP.md
+└── CONTRIBUTING.md
+```
+
+### Individual Skill Structure
+
+```
+skills/skill-name/
 ├── SKILL.md          # Required: Skill definition
+├── README.md         # Optional: Skill documentation
 ├── resources/        # Optional: Additional files
 └── examples/         # Optional: Usage examples
 ```
@@ -74,8 +93,8 @@ MIT License - See LICENSE file for details
 - ⚙️ [Setup Instructions](SETUP.md) - Publish to GitHub
 - 📋 [Cheat Sheet](CHEATSHEET.md) - Quick reference for common tasks
 - 🤝 [Contributing Guide](CONTRIBUTING.md) - How to add new skills
-- 📝 [Example Skill](example-skill/) - Reference implementation
-- 💡 [Best Practices](example-skill/resources/best-practices.md) - Tips for writing effective skills
+- 📝 [Example Skill](skills/example-skill/) - Reference implementation
+- 💡 [Best Practices](skills/example-skill/resources/best-practices.md) - Tips for writing effective skills
 
 ## Resources
 
