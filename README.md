@@ -1,27 +1,53 @@
 # Personal Skills for Claude Code
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Skills](https://img.shields.io/badge/skills-2-blue.svg)](./skills)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-brightgreen.svg)](https://docs.anthropic.com/claude/docs/claude-code)
+
 This repository contains custom skills for Claude Code that can be installed via the skills marketplace.
 
-## Quick Start
+## ⚡ Quick Install
 
-**First time setup?** Follow the [Setup Instructions](SETUP.md) to publish your repository to GitHub.
+```bash
+/skills add https://github.com/kyoko-df/skills
+```
 
-**Creating skills?** Check out the [Quick Start Guide](QUICKSTART.md) to get up and running in minutes!
+This will automatically install all skills in this repository to your Claude Code environment.
 
-## Installation
+## Installation Methods
 
-### Via Claude Code Marketplace
+### Method 1: Via Marketplace (Recommended)
 
-1. Open Claude Code
-2. Run `/skills add https://github.com/kyoko-df/skills`
-3. The skills will be automatically discovered and installed
+In Claude Code, simply run:
 
-### Manual Installation
+```bash
+/skills add https://github.com/kyoko-df/skills
+```
+
+This will:
+- ✅ Automatically clone the repository
+- ✅ Discover all skills in the `skills/` directory
+- ✅ Make them immediately available for use
+- ✅ Enable automatic updates with `/skills update`
+
+### Method 2: Manual Installation
 
 ```bash
 # Clone to your Claude Code skills directory
 cd ~/.claude/skills
-git clone https://github.com/kyoko-df/skills personal-skills
+git clone https://github.com/kyoko-df/skills kyoko-df-skills
+
+# Verify installation
+ls -la kyoko-df-skills/skills/
+```
+
+### Method 3: Local Development
+
+```bash
+# For developing new skills
+git clone https://github.com/kyoko-df/skills
+cd skills
+ln -s $(pwd)/skills/your-skill ~/.claude/skills/your-skill
 ```
 
 ## Available Skills
@@ -58,8 +84,6 @@ skills/
 │       ├── SKILL.md
 │       └── resources/
 ├── README.md
-├── QUICKSTART.md
-├── SETUP.md
 └── CONTRIBUTING.md
 ```
 
@@ -89,9 +113,6 @@ MIT License - See LICENSE file for details
 
 ## Documentation
 
-- 🚀 [Quick Start Guide](QUICKSTART.md) - Get started in minutes
-- ⚙️ [Setup Instructions](SETUP.md) - Publish to GitHub
-- 📋 [Cheat Sheet](CHEATSHEET.md) - Quick reference for common tasks
 - 🤝 [Contributing Guide](CONTRIBUTING.md) - How to add new skills
 - 📝 [Example Skill](skills/example-skill/) - Reference implementation
 - 💡 [Best Practices](skills/example-skill/resources/best-practices.md) - Tips for writing effective skills

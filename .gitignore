@@ -3,6 +3,9 @@
 .AppleDouble
 .LSOverride
 
+# Keep Claude plugin config
+!.claude-plugin/
+
 # Editor
 .vscode/
 .idea/

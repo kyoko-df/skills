@@ -1,0 +1,23 @@
+{
+  "name": "kyoko-df-skills",
+  "owner": {
+    "name": "kyoko-df",
+    "email": "kyoko-df@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Personal skills collection for Claude Code with Chinese and English support",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "kyoko-df-skills",
+      "description": "Collection of personal skills including AI writing pattern removal (humanizer) and template examples",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/humanizer",
+        "./skills/example-skill"
+      ]
+    }
+  ]
+}
