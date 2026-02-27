@@ -4,7 +4,9 @@ This repository contains custom skills for Claude Code that can be installed via
 
 ## Quick Start
 
-New to creating skills? Check out the [Quick Start Guide](QUICKSTART.md) to get up and running in minutes!
+**First time setup?** Follow the [Setup Instructions](SETUP.md) to publish your repository to GitHub.
+
+**Creating skills?** Check out the [Quick Start Guide](QUICKSTART.md) to get up and running in minutes!
 
 ## Installation
 
